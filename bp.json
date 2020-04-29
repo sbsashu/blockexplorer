@@ -1,0 +1,44 @@
+{
+	"producer_account_name": "arisen",
+	"producer_public_key": "RSN63qxMoqYwywQKXfX182Zb7UKsaYYcDfs41pN9Mf62mgUBmMfPc",
+	"org": {
+	"candidate_name": "arisen",
+	"website": "https://arisenexplorer.com",
+	"code_of_conduct": "",
+	"email": "",
+	"branding": {
+	"logo_256": "https://secure.gravatar.com/avatar/b7e0f18f9621ed4f2d54be1bb89de0d8.jpg?s=80&r=g&d=mm",
+	"logo_1024": "https://secure.gravatar.com/avatar/b7e0f18f9621ed4f2d54be1bb89de0d8.jpg?s=80&r=g&d=mm",
+	"logo_svg": ""
+},
+	"location": {
+	"name": "Arisen",
+	"country": "US",
+	"latitude": 50.431782,
+	"longitude": 30.516382
+},
+	"social": {
+		"steemit": "@arisen",
+		"twitter": "arisenio",
+		"youtube": "",
+		"facebook": "arisenio",
+		"github": "arisenio",
+		"reddit": "arisenio",
+		"keybase": "",
+		"telegram": "arisenio",
+		"wechat": ""
+	}
+},
+"nodes": [{
+		"location": {
+			"name": "Arisen Explorer",
+			"country": "United States of America",
+			"latitude": 60.1708,
+			"longitude": 24.9375
+		},
+		"is_producer": true,
+		"p2p_endpoint": "greatchain.arisennodes.io",
+		"api_endpoint": "http://api.arisenexplorer.com",
+		"ssl_endpoint": "https://api.arisenexplorer.com"
+	}]
+}
