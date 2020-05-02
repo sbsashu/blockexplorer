@@ -112,7 +112,7 @@ export class ProducersPageComponent implements OnInit, OnDestroy{
   }
 
   getSupplyEOS(globalTable){
-    this.http.get(`/api/custom/get_table_rows/eosio.token/${this.frontConfig.coin}/stat/1`)
+    this.http.get(`/api/custom/get_table_rows/arisen.token/${this.frontConfig.coin}/stat/1`)
              .subscribe((res: any) => {
                 if (!res || !res.rows || !res.rows[0] || !res.rows[0].supply){
                     return;

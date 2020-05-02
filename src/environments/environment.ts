@@ -30,7 +30,7 @@ export const environment = {
        customBalance: false,
        logo: '/assets/images/arisen-logo-dark-gray.png',
        name: {
-          big: '1.0',
+          big: '',
           small: 'Explorer'
        },
        nets: [{ name: 'Mainnet', url: 'https://greatchains.arisennodes.io', active: true },
@@ -43,12 +43,10 @@ export const environment = {
        version: '2.2.8',
        producers: 1000,
        social: [
-         { link: '', icon: 'fa-github' },
-         { link: '', icon: 'fa-facebook' },
-         { link: '', icon: 'fa-reddit-alien' },
-         { link: 'https://medium.com/europechain', icon: 'fa-medium' },
-         { link: 'https://twitter.com/europechain_', icon: 'fa-twitter' },
-         { link: 'https://t.me/europechain', icon: 'fa-telegram-plane' }
+         { link: 'https://github.com/arisenio', icon: 'fa-github' },
+         { link: 'https://facebook.com/arisenx', icon: 'fa-facebook' },
+         { link: 'https://medium.com/arisenx', icon: 'fa-medium' },
+         { link: ' https://twitter.com/arisenx', icon: 'fa-twitter' },
        ],
        liveTXenable: true
     }

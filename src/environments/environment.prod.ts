@@ -25,7 +25,7 @@ export const environment = {
        customBalance: false,
        logo: '/assets/images/arisen-logo-dark-gray.png',
        name: {
-          big: '1.0',
+          big: '',
           small: 'Explorer'
        },
        nets: [{ name: 'Mainnet', url: 'https://greatchains.arisennodes.io', active: true }],

@@ -4,7 +4,6 @@
   <a routerLink="" class="logo pull-left">
     <img src="{{frontConfig?.logo}}" width="30" alt="">
     <span class="name-explorer">{{frontConfig?.name?.small}}</span>
-    <span class="name-eos">{{frontConfig?.name?.big}}</span> 
   </a>
   <div class="main-search">
     <i class="fal fa-search" (click)="searchGlobal(search)"></i>
@@ -30,12 +29,12 @@
 
 <footer>
   <div class="container">
-  <div class="pull-left">Copyright © 2018 RIXweb <span *ngIf="!frontConfig?.disableVoteDonation">Donation - <a routerLink="/account/{{frontConfig?.voteDonationAcc}}" class="color-green"><strong>{{frontConfig?.voteDonationAcc}}</strong></a></span></div>
+  <div class="pull-left">Copyright © 2020 The Satoshi Foundation</div>
   <ul class="pull-right">
-       <li *ngFor="let elem of env.frontConfig.social;">
-          <a [href]="elem.link" target="_blank"><i class="fab {{elem.icon}}" *ngIf="elem.link"></i></a>
-      </li>
-      <li><a href="mailto:dev.eosweb.net@gmail.com">Support</a></li>
+    <li><a href="https://docs.arisen.network" target="_blank">Developer Documentation</a></li>
+    <li *ngFor="let elem of env.frontConfig.social;">
+      <a [href]="elem.link" target="_blank"><i class="fab {{elem.icon}}" *ngIf="elem.link"></i></a>
+    </li>
   </ul>
    </div>
 </footer>
