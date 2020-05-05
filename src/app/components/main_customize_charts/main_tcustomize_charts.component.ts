@@ -47,10 +47,10 @@ export class MainCustomizeChartsComponent implements OnInit{
   }
 
   getData() {
-        this.http.get(`https://min-api.cryptocompare.com/data/pricemultifull?fsyms=${this.frontConfig.coin}&tsyms=USD&site=${location.hostname}`)
+        this.http.get(`https://nv6khovry9.execute-api.us-east-1.amazonaws.com/dev/rsn_price_from_bts`)
                   .subscribe(
                       (res: any) => {
-                           this.currencyObj = res;
+                           this.currencyObj = parseFloat(res.data.USD.price).toFixed(5);
                            this.mainService.setRixPrice(this.currencyObj);
                            setTimeout(() => { this.getData() }, this.timeForUpdate);
                       },
