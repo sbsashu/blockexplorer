@@ -61,7 +61,7 @@ export class MainCustomizeChartsComponent implements OnInit{
   }
 
   getChart() {
-        this.http.get(`https://min-api.cryptocompare.com/data/histohour?fsym=${this.frontConfig.coin}&tsym=USD&limit=24&aggregate=3&e=CCCAGG&site=${location.hostname}`)
+        this.http.get(`https://min-api.cryptocompare.com/data/histohour?fsym=EOS&tsym=USD&limit=24&aggregate=3&e=CCCAGG`)
                   .subscribe(
                       (res: any) => {
                            this.mainCurrencyChartDataRes = this.createChartArr(res.Data);
