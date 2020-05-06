@@ -7,7 +7,8 @@
 	<h1 class="market-header">{{frontConfig?.coin}} web Wallet</h1>
 
 	<div class="col-sm-4 block-info-line" *ngIf="!loginRIXService.accountName">
-		  <button mat-raised-button class="btn-generate" color="primary" (click)="loginRIXService.openPopup()">Connect Wallet</button>
+		 <a href='https://github.com/arisenio/avote/releases' target="_blank"><button mat-raised-button class="btn-generate" color="primary">Connect Wallet</button></a>
+		  <!-- <button mat-raised-button class="btn-generate" color="primary" (click)="loginRIXService.openPopup()">Connect Wallet</button> -->
 	</div>
 
 	<div class="block-info" *ngIf="loginRIXService.accountName">
