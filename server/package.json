@@ -13,7 +13,7 @@
     "@arisencore/api": "^7.0.5",
     "@pm2/io": "^4.3.3",
     "arisenjsv1": "^1.0.3",
-    "async": "^3.1.0",
+    "async": "^3.2.2",
     "body-parser": "^1.19.0",
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.4",
